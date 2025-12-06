@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+    <style>
+        * {
+            font-family: 'Arial',
+            '{{ font_family }}',
+            sans-serif;
+        }
+
+        body,
+        .markdown-body,
+        p,
+        div,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        li,
+        td,
+        th {
+            font-family: 'Arial',
+            '{{ font_family }}',
+            sans-serif;
+        }
+
+        pre,
+        code {
+            font-family: 'Courier New', monospace;
+        }
+
+            {
+                {
+                css_content
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="markdown-body">
+        {{ content }}
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,6 @@
+build/
+dist/
+examples/
+output_batch/
+LOCAL_APPDATA_FONTCONFIG_CACHE/
+.md2pdf_cache/math/
